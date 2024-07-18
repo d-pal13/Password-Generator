@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131, 58, 180);
+  background: radial-gradient(circle, rgba(131, 58, 180, 1) 1%, rgba(253, 29, 29, 1) 60%, rgba(252, 176, 69, 1) 97%);
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.container {
+  border: 0.5px solid aliceblue;
+  border-radius: 10px;
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  box-shadow: 8px 8px 4px #909090, 8px 8px 0px #575757;
+}
+
+.container h1 {
+  font-size: 1.4rem;
+  margin-block: 8px;
+
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputBox span {
+  position: absolute;
+  top: 16px;
+  right: 6px;
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.passBox {
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  font-size: 20px;
+  margin-block: 8px;
+  text-overflow: ellipsis;
+
+}
+
+.row {
+  display: flex;
+  margin-block: 8px;
+
+}
+
+.row p,
+.row label {
+  flex-basis: 100%;
+  font-size: 20px;
+}
+
+.row input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+
+}
+
+.passBtn {
+  border: none;
+  outline: none;
+  background-color: rgb(128, 0, 255);
+  padding: 12px 24px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.passBtn:hover {
+  background-color: orangered;
+}
