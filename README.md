@@ -1,6 +1,8 @@
 # PassWord Generator
 This is password generation app using JavaScript, CSS & HTML.
-This app generates password length up to 20 characters.
+
+This app generates random password length up to 20 characters.
+Each password includes numbers & uppercase and lowercase and also includes symbol's.
 
 
                                                                           OutPut:-
