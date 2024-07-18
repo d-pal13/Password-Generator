@@ -6,7 +6,7 @@ This app generates password length up to 20 characters.
                                                                           OutPut:-
 
 
-                                                                               ![Screenshot 2024-07-18 194151](https://github.com/user-attachments/assets/c941a81a-0827-46f7-b093-7af085a724d1)
+  ![Screenshot 2024-07-18 194151](https://github.com/user-attachments/assets/c941a81a-0827-46f7-b093-7af085a724d1)
 
 
 
