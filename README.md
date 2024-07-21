@@ -2,7 +2,7 @@
 This is password generation app using JavaScript, CSS & HTML.
 
 This app generates random password length up to 20 characters.
-Each password includes numbers & uppercase and lowercase and also includes symbol's.
+Each password includes numbers & uppercase, lowercase and also includes symbol's.
 
 
                                                                           OutPut:-
